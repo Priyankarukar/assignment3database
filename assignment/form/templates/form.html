@@ -1,0 +1,13 @@
+<html>
+<body>
+<form method="post" action="/form/check">
+    {% csrf_token %}
+    {{form.as_p}}
+    
+
+    <input type="submit" value="ok">
+
+
+</form>
+</body>
+</html>

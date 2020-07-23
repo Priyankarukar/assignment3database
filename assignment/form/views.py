@@ -2,11 +2,15 @@ from django.shortcuts import render
 from django.http import HttpResponse
 from . import forms
 from . import models
+from . models import Students
 
 # Create your views here.
 def form(request):
     f1=forms.MyForm()
     return render(request,"form.html",{'form':f1})
+def index(request):
+    data=Students.objects.all()
+    return render(request,'index.html',{"studentdata":data})
 
 def getdata(request):
     if request.method == "GET":

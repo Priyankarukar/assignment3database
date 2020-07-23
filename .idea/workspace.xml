@@ -24,13 +24,18 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e5eab6d0-e41a-4c27-8a66-cc6ceeb76149" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assignment/assignment/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/assignment/assignment/settings.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assignment/assignment/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/assignment/assignment/urls.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assignment/form/templates/valid.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assignment/form/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/assignment/form/urls.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assignment/form/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/assignment/form/views.py" afterDir="false" />
+    <list default="true" id="e5eab6d0-e41a-4c27-8a66-cc6ceeb76149" name="Default Changelist" comment="ok">
+      <change afterPath="$PROJECT_DIR$/assignment/form/templates/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assignment/form/templates/valid.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assignment/home/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assignment/home/admin.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assignment/home/apps.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assignment/home/migrations/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assignment/home/models.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assignment/home/templates/home.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assignment/home/tests.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assignment/home/urls.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assignment/home/views.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -73,6 +78,14 @@
       <option name="presentableId" value="Default" />
       <updated>1595343745275</updated>
     </task>
+    <task id="LOCAL-00001" summary="ok">
+      <created>1595483612762</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1595483612762</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -86,6 +99,10 @@
       </map>
     </option>
     <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="ok" />
+    <option name="LAST_COMMIT_MESSAGE" value="ok" />
   </component>
   <component name="WindowStateProjectService">
     <state x="395" y="0" key="CommitChangelistDialog2" timestamp="1595482853324">
